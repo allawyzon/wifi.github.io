@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Data Pembayaran Wifi</title>
+  <title>Data Pembayaran Barang</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
@@ -29,7 +29,7 @@
     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <!-- <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4> -->
-      <h1>Data Pembayaran Wifi</h1>
+      <h1>Data Pembayaran Barang</h1>
       <!-- <p>Akan melangsungkan resepsi pernikahan dalam:</p> -->
       <div class="simply-countdown"></div>
       <a href="#rsvp" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Data Member</a>
@@ -409,34 +409,34 @@
       </div>
 
       <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
-        action="https://script.google.com/macros/s/AKfycbzb4vlhHU6mXyOz-luFLCzlrjTTg1qL-GbaZodk9NXecH2JCqna2yuZsufxkMfX1A2mLQ/exec"
+        action="https://script.google.com/macros/s/AKfycbwyotXYxDmKTtV6FXquxRbZwkeKwwyCCvHny2M7fpeccVON1BT73FXgKfcK-NBJxszi/exec"
         id="my-form">
         <div class="col-12">
           <div class="mb-3">
             <label for="NAMA BARANG" class="form-label">NAMA BARANG</label>
-            <input type="text" class="form-control" id="nama" name="NAMA BARANG" />
+            <input type="text" class="form-control" id="nama BARANG" name="NAMA BARANG" />
           </div>
 
         </div>
         <div class="col-12">
           <div class="mb-3">
-            <label for="jumlah" class="form-label">HARGA BARANG/KG</label>
-            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="10000000000" length="1"
-              value="1" />
+            <label for="HARGA BARANG/KG" class="form-label">HARGA BARANG/KG</label>
+            <input type="number" class="form-control" id="HARGA BARANG/KG" name="HARGA BARANG/KG" min="1"
+              max="10000000000" length="1" value="1" />
           </div>
         </div>
         <div class="col-12">
           <div class="mb-3">
-            <label for="jumlah" class="form-label">TOTAL JUMLAH BARANG/KG</label>
-            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="10000000000" length="1"
-              value="1" />
+            <label for="TOTAL JUMLAH BARANG/KG" class="form-label">TOTAL JUMLAH BARANG/KG</label>
+            <input type="number" class="form-control" id="TOTAL JUMLAH BARANG/KG" name="TOTAL JUMLAH BARANG/KG" min="1"
+              max="10000000000" length="1" value="1" />
           </div>
         </div>
         <div class="col-12">
           <div class="mb-3">
-            <label for="jumlah" class="form-label">TOTAL PEMBAYARAN</label>
-            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="50000000000" length="1"
-              value="1" />
+            <label for="TOTAL PEMBAYARAN" class="form-label">TOTAL PEMBAYARAN</label>
+            <input type="number" class="form-control" id="TOTAL PEMBAYARAN" name="TOTAL PEMBAYARAN" min="1"
+              max="50000000000" length="1" value="1" />
           </div>
         </div>
         <class="col-12">
@@ -447,7 +447,7 @@
           <div class="col-12">
             <div class="mb-3">
               <label for="status" class="form-label">Konfirmasi</label>
-              <select name="status" id="status" class="form-select">
+              <select name="STATUS" id="status" class="form-select">
                 <option selected>Pilih salah satu</option>
                 <option value="Lunas">Lunas</option>
                 <option value="Belum bayar">Belum bayar</option>
